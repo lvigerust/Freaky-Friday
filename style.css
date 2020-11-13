@@ -1,0 +1,145 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 100%;
+  border-radius: 3px;
+  margin-top: 1em;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display SC", serif;
+  margin: 0;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
+h3 {
+  font-family: "Playfair Display SC", serif;
+  margin: 0;
+}
+
+section {
+  padding: 3em 0;
+}
+
+article {
+  padding: 2.5em 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+.section-title {
+  font-size: 2.25rem;
+}
+
+.intro {
+  background-color: #14213d;
+  color: #ddd0be;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+
+  min-height: 325px;
+}
+
+.intro__title {
+  font-size: 3rem;
+}
+
+.intro__text {
+  margin-bottom: 2.5rem;
+}
+
+.next-game {
+  background-color: #284b63;
+  background-image: linear-gradient(
+    125deg,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.15)
+  );
+  color: #fff;
+  text-align: center;
+}
+
+.article__title {
+  font-size: 2.25rem;
+}
+
+.team {
+  width: 100%;
+}
+
+.team-logo {
+  width: 50%;
+}
+
+h4 {
+  font-size: clamp(0.5rem, calc(2.5vw + 0.5rem), 2.5rem);
+}
+
+.article-one {
+  background-color: #e5e5e5;
+}
+
+.article-two {
+  background-color: #14213d;
+  color: #fca311;
+}
+
+.article__image {
+  align-self: center;
+}
+
+@media (min-width: 800px) {
+  .row {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .VS {
+    align-self: center;
+  }
+
+  .col {
+    width: 100%;
+    align-self: center;
+  }
+
+  .col + .col {
+    margin-left: 5em;
+  }
+
+  .intro__title {
+    font-size: 3.75rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .match {
+    display: flex;
+  }
+  .VS {
+    align-self: center;
+    margin-right: 0.5em;
+  }
+  .row--reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
