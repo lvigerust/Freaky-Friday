@@ -37,6 +37,9 @@ article {
   padding: 2.5em 0;
 }
 
+.main {
+  background-color: #e5e5e5;
+}
 .container {
   width: 80%;
   margin: 0 auto;
@@ -54,6 +57,7 @@ article {
 
 .article__title {
   font-size: 2.25rem;
+  margin-bottom: 0;
 }
 
 .intro {
@@ -101,9 +105,30 @@ article {
   color: #14213d;
 }
 
+.col--light a {
+  text-decoration: none;
+  color: #14213d;
+  margin-top: 0;
+}
+
+.article__date {
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.article__text {
+  margin-bottom: 0;
+}
+
 .article-two {
   background-color: #14213d;
   color: #fca311;
+}
+
+.col--dark a {
+  text-decoration: none;
+  color: #fca311;
+  margin-top: 0;
 }
 
 .article__image {
